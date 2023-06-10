@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #C1C8E4
   }
 
   .navbar {
@@ -104,30 +105,43 @@ body {
 
   .certifications {
     text-align: left;
+    margin-top: -3%;
     margin-bottom: 30px;
     margin-left: -100px;
     font-size: 70%;
   }
-
+  
   .certifications table {
     width: 90%;
     border-collapse: collapse;
-    background-color: #f9f9f9;
+    background-color: #84CEEB;
     color: #333;
+    transition: transform 0.3s ease;
   }
-
+  
   .certifications th,
   .certifications td {
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #8860D0;
   }
-
+  
   .certifications th {
-    background-color: #f0f0f0;
+    background-color: #8860D0;
+  }
+  
+  .certifications table:hover {
+    transform: scale(1.05);
+  }
+  
+  
+  .certifications td:nth-child(2):hover {
+    background-color: #8860D0;
+    transform: scale(1.05);
   }
 
   .work-experiences {
     text-align: center;
+    margin-top: -5%;
     margin-bottom: 30px;
     margin-left: 7%;
     margin-right: 12%;
@@ -158,26 +172,32 @@ body {
 
   .languages {
     text-align: left;
-  
-    font-size: 70%;
+    margin-top:5%;
+    font-size: 65%;
   }
 
   .languages table {
     width: 130%;
     border-collapse: collapse;
-    background-color: #f9f9f9;
+    background-color: #84CEEB;
     color: #333;
+    transition: transform 0.3s ease;
   }
 
   .languages th,
   .languages td {
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #8860D0;
   }
 
   .languages th {
-    background-color: #f0f0f0;
+    background-color: #8860D0;
   }
+  .languages table:hover {
+    transform: scale(1.05);
+  }
+  
+
   /*Contact*/
 
   .contact-button {
@@ -194,7 +214,7 @@ body {
   }
 
   #projects {
-    background-color: #f8f8f8;
+    background-color: #C1C8E4;
   }
   #projects {
     text-align: center;
@@ -204,12 +224,12 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 5px;
+    gap: 15px;
     margin-top: 5%;
   }
 
   .project {
-    max-width: 300px;
+    max-width: 400px;
     border: 1px solid #ccc;
     border-radius: 5px;
     overflow: hidden;
@@ -233,12 +253,13 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgba(0, 0, 0, 0.8);
-    color: #fff;
+    background-color: #C1C8E4;
+    color: #333;
     padding: 10px 20px;
     font-size: 16px;
     opacity: 0;
     transition: opacity 0.3s;
+    margin-top:15%;
   }
 
   .project:hover .project-name {
@@ -248,11 +269,15 @@ body {
   .project-details {
     display: none;
     padding: 20px;
-    background-color: #f9f9f9;
+    padding-top:15%;
+    background-color: #C1C8E4;
+    border-color: #333;
+    border: 2.5px solid #8860D0;
   }
 
   .project-details h3 {
     margin-top: 0;
+    font-size: small;
   }
 
   .project-details p {
