@@ -47,7 +47,7 @@ body {
 
   #home {
     background-color: #C1C8E4;
-    background-image: linear-gradient(rgba(193, 200, 228, 1), rgba(193, 200, 228, 1)),url('../images/home.jpg');
+    background-image: linear-gradient(rgba(193, 200, 228, 1), rgba(193, 200, 228, 1)),url('../images/home.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -106,7 +106,7 @@ body {
 
   #about-me {
     background-color: #C1C8E4;
-    background-image: linear-gradient(rgba(193, 200, 228, 1), rgba(193, 200, 228, 1)),url('../images/skills.jpg');
+    background-image: linear-gradient(rgba(193, 200, 228, 1), rgba(193, 200, 228, 1)),url('../images/skills.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -327,7 +327,7 @@ body {
 
   #contact {
     background-color: #C1C8E4;
-    background-image: linear-gradient(rgba(193, 200, 228, 1), rgba(193, 200, 228, 1)),url('../images/aboutback.jpg');
+    background-image: linear-gradient(rgba(193, 200, 228, 1), rgba(193, 200, 228, 1)),url('../images/aboutback.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
