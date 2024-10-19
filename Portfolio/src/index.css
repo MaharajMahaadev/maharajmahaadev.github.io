@@ -1,0 +1,16 @@
+@tailwind utilities;
+@tailwind base;
+@tailwind components;
+
+@layer components{
+    .cbutton{
+        @apply relative rounded-2xl font-medium after:absolute after:left-10 after:right-10 after:bottom-0 after:h-[2px] after:bg-black after:scale-x-0 after:origin-left after:transition-transform after:duration-700 hover:after:scale-x-100;
+    }
+    .mcbutton{
+        @apply relative rounded-2xl font-medium after:absolute after:left-10 after:right-10 after:bottom-0 after:h-[2px] after:bg-black after:scale-x-0 after:origin-left after:transition-transform after:duration-700 hover:after:scale-x-100;
+    }
+}
+
+body{
+    background-color: white;
+}

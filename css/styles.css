@@ -85,6 +85,11 @@ body {
     background-color: #84CEEB;
     padding: 8px 15px;
   }
+  .info h1{
+    background-color: #5AB9EA;
+    height: inherit;
+    width:100%;
+  }
   .description {
     margin-top: 10px; 
     font-weight:500;
